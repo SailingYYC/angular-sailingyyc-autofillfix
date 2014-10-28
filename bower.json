@@ -1,11 +1,11 @@
 {
   "name": "sailingyyc-autofillfix",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
     "Colin Cyr <ccyr@sailingyyc.com>"
   ],
   "description": "Fixes autocomplete (autofill) on AngularJS form submit.",
-  "main": "sailingyyc.AutoFillFix.js",
+  "main": "autoFillFix.js",
   "moduleType": [
     "globals"
   ],
