@@ -1,0 +1,25 @@
+{
+  "name": "sailingyyc-autofillfix",
+  "version": "0.0.1",
+  "authors": [
+    "Colin Cyr <ccyr@sailingyyc.com>"
+  ],
+  "description": "Fixes autocomplete (autofill) on AngularJS form submit.",
+  "main": "sailingyyc.AutoFillFix.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/SailingYYC/sailingyyc-AutoFillFix",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
