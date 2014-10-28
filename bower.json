@@ -1,6 +1,6 @@
 {
   "name": "sailingyyc-autofillfix",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "Colin Cyr <ccyr@sailingyyc.com>"
   ],
@@ -14,7 +14,7 @@
     "angularjs"
   ],
   "license": "MIT",
-  "homepage": "http://github.com/SailingYYC/sailingyyc-AutoFillFix",
+  "homepage": "http://github.com/SailingYYC/angular-sailingyyc-autofillfix",
   "ignore": [
     "**/.*",
     "node_modules",
