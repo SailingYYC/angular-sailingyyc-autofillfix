@@ -19,10 +19,7 @@ angular.module( 'sailingyyc.AutoFillFix', [] )
             event.preventDefault();
             angular.forEach( ['input', 'textarea', 'select'], function ( tag ) {
               angular.forEach( element.find( tag ), function ( elem ) {
-                elem = angular.element( elem );
-                elem.triggerHandler( 'input' );
-                elem.triggerHandler( 'change' );
-                elem.triggerHandler( 'keydown' );
+                angular.element( elem ).triggerHandler( 'input' ).triggerHandler( 'change' ).triggerHandler( 'keydown' );
               });
             });            
             scope.$apply( attrs.ngSubmit );
